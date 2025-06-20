@@ -276,7 +276,6 @@ var Sandbox = Backbone.View.extend({
       'level': this.startLevel,
       'sandbox': this.exitLevel,
       'levels': this.showLevels,
-      'mobileAlert': this.mobileAlert,
       'build level': this.buildLevel,
       'export tree': this.exportTree,
       'import tree': this.importTree,
@@ -462,10 +461,7 @@ var Sandbox = Backbone.View.extend({
     }
   },
 
-  mobileAlert: function(command, deferred) {
-    alert(intl.str('mobile-alert'));
-    command.finishWith(deferred);
-  },
+
 
   delay: function(command, deferred) {
     var amount = parseInt(command.get('regexResults')[1], 10);

@@ -66,11 +66,6 @@ class MainHelperBarView extends React.Component {
         });
       }.bind(this),
       title: 'Show available languages'
-    }, {
-      newPageLink: true,
-      icon: 'fa-brands fa-threads',
-      href: 'https://www.threads.net/@pcottle',
-      title: 'Follow me on Threads'
     }];
   }
 

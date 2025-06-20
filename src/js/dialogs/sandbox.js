@@ -15,18 +15,7 @@ exports.dialog = {
         'After this dialog you\'ll see the variety of levels we have to offer. If you\'re a ',
         'beginner, just go ahead and start with the first. If you already know some Git basics, ',
         'try some of our later more challenging levels.',
-        '',
-        'You can see all the commands available with `show commands` at the terminal.',
-        '',
-        'PS: Want to go straight to a sandbox next time?',
-        'Try out ',
-        '[this special link](https://pcottle.github.io/learnGitBranching/?NODEMO)',
-        '',
-        'PPS: GitHub has started naming the default branch `main` instead of `master` ',
-        'to migrate away from biased terminology [(more details available here)](https://github.com/github/renaming). ',
-        'In accordance with this industry-wide movement, we have also updated "Learn Git Branching" to ',
-        'use `main` instead of `master` in our lessons. This rename should be fairly consistent by ',
-        'now but if you notice any errors, feel free to submit a PR (or open an issue).'
+
       ]
     }
   }],
@@ -318,15 +307,6 @@ exports.dialog = {
         '',
         'Der Sinn dieser Anwendung ist, die umfangreichen und komplexen Zusammenhänge der Prozesse, die bei der Arbeit mit Git ablaufen, zu verdeutlichen. Ich hoffe du hast Spaß dabei und lernst vielleicht sogar etwas!',
         '',
-        '# Demo!',
-        '',
-        'Falls du die Demonstration noch nicht gesehen hast, schau sie dir hier an:',
-        '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=de_DE&demo](https://pcottle.github.io/learnGitBranching/?locale=de_DE&demo)',
-        '',
-        'Genervt von diesem Fenster? Häng `NODEMO` an die URL um es los zu werden, so wie hier:',
-        '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=de_DE&NODEMO](https://pcottle.github.io/learnGitBranching/?locale=de_DE&NODEMO)'
       ]
     }
   }, {
@@ -670,15 +650,6 @@ exports.dialog = {
         'с git. Мы надеемся, что вам понравится эта игра ',
         'и может вы что-то усвоите!',
         '',
-        '# Демо!',
-        '',
-        'Если ты не видел демонстрацию – посмотри её тут:',
-        '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=ru_RU&demo](https://pcottle.github.io/learnGitBranching/?locale=ru_RU&demo)',
-        '',
-        'Достало это сообщение? Добавь `NODEMO` к адресу и навсегда забудь о нём, ниже ссылка для удобства:',
-        '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=ru_RU&NODEMO](?locale=ru_RU&NODEMO)'
       ]
     }
   }, {
@@ -715,28 +686,7 @@ exports.dialog = {
       ]
     }
   }],
-  'uk': [{
-    type: 'ModalAlert',
-    options: {
-      markdowns: [
-        '## Ласкаво просимо до Learn Git Branching',
-        '',
-        'Хочеш вивчити Git? Тоді ти знайшов те, що шукав!',
-        '"Learn Git Branching" \u2014 це найбільш візуальний та інтерактивний спосіб вивчення Git в Інтернеті. ',
-        'Ти зможеш проходити захопливі рівні, дивитися ',
-        'покрокові інструкції з використання потужних функцій Git, навіть трохи ',
-        'розважитись в процесі навчання.',
-        '',
-        'Після цього діалогу побачиш список доступних рівнів. Якщо ти новачок, ',
-        'просто почни з першого рівня. Якщо вже знаєш основи Git, ',
-        'спробуй більш складні рівні в кінці.',
-        '',
-        'P.S. Хочеш перейти одразу до пісочниці наступного разу?',
-        'Спробуй ',
-        '[це спеціальне посилання.](https://pcottle.github.io/learnGitBranching/?locale=uk&NODEMO)'
-      ]
-    }
-  }],
+
   'vi': [{
     type: 'ModalAlert',
     options: {

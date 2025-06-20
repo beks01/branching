@@ -183,7 +183,6 @@ var regexMap = {
   'sandbox': /^sandbox($|\s)/,
   'level': /^level\s?([a-zA-Z0-9]*)/,
   'levels': /^levels($|\s)/,
-  'mobileAlert': /^mobile alert($|\s)/,
   'build level': /^build +level\s?([a-zA-Z0-9]*)( +--skipIntro)?$/,
   'export tree': /^export +tree$/,
   'importTreeNow': /^importTreeNow($|\s)/,
